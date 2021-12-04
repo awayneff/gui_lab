@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SortController">
+   <children>
+      <TextArea fx:id="source_arr_textarea" layoutX="21.0" layoutY="80.0" prefHeight="50.0" prefWidth="559.0" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Text fx:id="source_arr_text" disable="true" layoutX="21.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Исходный массив" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="sorted_arr_text" disable="true" layoutX="21.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отсортированный  массив" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="sort_btn" layoutX="248.0" layoutY="306.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="104.0" text="Запуск" />
+      <Text fx:id="preview_text" layoutX="136.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Нажмите кнопку, чтобы начать">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="sorted_arr_textarea" layoutX="21.0" layoutY="159.0" prefHeight="50.0" prefWidth="559.0" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Text fx:id="sum_arr_text" disable="true" layoutX="21.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Массив сумм цифр каждого элемента" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="sum_arr_textarea" layoutX="21.0" layoutY="241.0" prefHeight="50.0" prefWidth="559.0" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Text fx:id="launch_again_text" layoutX="146.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Для повторного запуска ещё раз нажмите кнопку" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <MenuBar layoutX="-5.0" prefHeight="28.0" prefWidth="607.0" />
+      <Button fx:id="menu_btn" layoutX="5.0" layoutY="1.0" mnemonicParsing="false" prefHeight="7.0" prefWidth="65.0" text="Меню" />
+   </children>
+</Pane>

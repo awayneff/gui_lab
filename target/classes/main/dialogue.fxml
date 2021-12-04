@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.DialogueController">
+   <children>
+      <Text fx:id="caption_text" layoutX="26.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите длину массива" textAlignment="CENTER" wrappingWidth="365.21630859375">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="arr_len_textarea" layoutX="123.0" layoutY="62.0" prefHeight="33.0" prefWidth="173.0" />
+      <Button fx:id="proceed_btn" layoutX="138.0" layoutY="110.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="142.0" text="Продолжить" />
+   </children>
+</Pane>
